@@ -1,9 +1,9 @@
-
 <p align="center">
-<a href="https://programmercarl.com/other/xunlianying.html" target="_blank">
+<a href="https://www.programmercarl.com/xunlian/xunlianying.html" target="_blank">
   <img src="../pics/训练营.png" width="1000"/>
 </a>
-<p align="center"><strong><a href="https://mp.weixin.qq.com/s/tqCxrMEU-ajQumL1i8im9A">参与本项目</a>，贡献其他语言版本的代码，拥抱开源，让更多学习算法的小伙伴们收益！</strong></p>
+<p align="center"><strong><a href="./qita/join.md">参与本项目</a>，贡献其他语言版本的代码，拥抱开源，让更多学习算法的小伙伴们受益！</strong></p>
+
 
 # 程序提交之后为什么会超时？O(n)的算法会超时，n究竟是多大？
 
@@ -13,7 +13,7 @@
 
 计算机究竟1s可以执行多少次操作呢？ 接下来探讨一下这个问题。
 
-# 超时是怎么回事
+## 超时是怎么回事
 
 ![程序超时](https://code-thinking-1253855093.file.myqcloud.com/pics/20200729112716117.png)
 
@@ -25,7 +25,7 @@
 
 如果n的规模已经足够让O(n)的算法运行时间超过了1s，就应该考虑log(n)的解法了。
 
-# 从硬件配置看计算机的性能
+## 从硬件配置看计算机的性能
 
 计算机的运算速度主要看CPU的配置，以2015年MacPro为例，CPU配置：2.7 GHz Dual-Core Intel Core i5 。
 
@@ -44,7 +44,7 @@
 
 所以我们的程序在计算机上究竟1s真正能执行多少次操作呢？
 
-# 做个测试实验
+## 做个测试实验
 
 在写测试程序测1s内处理多大数量级数据的时候，有三点需要注意：
 
@@ -155,7 +155,7 @@ O(nlogn)的算法，1s内大概计算机可以运行 2 * (10^7)次计算，符�
 
 至于O(log n)和O(n^3) 等等这些时间复杂度在1s内可以处理的多大的数据规模，大家可以自己写一写代码去测一下了。
 
-# 完整测试代码
+## 完整测试代码
 
 ```CPP
 #include <iostream>
@@ -212,7 +212,7 @@ int main() {
 
 ```
 
-# 总结
+## 总结
 
 本文详细分析了在leetcode上做题程序为什么会有超时，以及从硬件配置上大体知道CPU的执行速度，然后亲自做一个实验来看看O(n)的算法，跑一秒钟，这个n究竟是做大，最后给出不同时间复杂度，一秒内可以运算出来的n的大小。
 
@@ -220,16 +220,6 @@ int main() {
 
 这样，大家应该对程序超时时候的数据规模有一个整体的认识了。
 
-## 其他语言版本
-
-
-Java：
-
-
-Python：
-
-
-Go：
 
 
 
