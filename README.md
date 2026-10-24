@@ -1,5 +1,5 @@
 
-# 代码随想录 · LeetCode-Master
+# 代码随想录 · 全网最强数据结构算法学习路线
 
 <p align="center">
   <a href="https://keetcoder.com/">🌍 海外英文版</a> ·
@@ -69,7 +69,8 @@
 
 * AI工具
     * [国内支付宝、微信给ChatGPT、Claude充值](https://github.com/youngyangyang04/gpt-daichong) 
-    * [Claude Code Opus 5、GPT5.6 API 接入](https://github.com/youngyangyang04/claude-code-ChatGPT-api)
+    * [国内如何使用Claude Code](https://github.com/youngyangyang04/claude-code-usage)
+    * [Claude Code OpAPI 接入](https://github.com/youngyangyang04/chatgpt-claude-api)
 
 * 算法性能分析
     * [关于时间复杂度，你不知道的都在这里！](./problems/前序/时间复杂度.md)
